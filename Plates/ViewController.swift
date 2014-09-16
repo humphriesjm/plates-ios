@@ -7,17 +7,23 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    Alamofire.request(.GET, "http://redbutton.digitaldrasticstudios.com/v1/highscore/score")
+      .responseJSON { (request, response, JSON, error) -> Void in
+        println("REQUEST: \(request)")
+        println("RESPONSE: \(response)")
+        println("JSON: \(JSON)")
+        println("ERROR: \(error)")
+    };
   }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
   }
 
 

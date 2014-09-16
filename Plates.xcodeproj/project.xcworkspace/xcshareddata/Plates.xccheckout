@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F1D0B1A4-5F04-445F-B1D1-477AAFA94228</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Plates</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>github.com:Alamofire/Alamofire.git</string>
+		<key>95C3F062A028F7548090EC782F60358DA1BCDC4D</key>
+		<string>github.com:humphriesjm/plates-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Plates.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>../../../../LIB/Alamofire</string>
+		<key>95C3F062A028F7548090EC782F60358DA1BCDC4D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:humphriesjm/plates-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>95C3F062A028F7548090EC782F60358DA1BCDC4D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alamofire</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>95C3F062A028F7548090EC782F60358DA1BCDC4D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Plates</string>
+		</dict>
+	</array>
+</dict>
+</plist>
