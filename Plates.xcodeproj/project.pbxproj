@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0169378219C873CD00E39487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169378119C873CD00E39487 /* AppDelegate.swift */; };
-		0169378419C873CD00E39487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169378319C873CD00E39487 /* ViewController.swift */; };
+		0169378419C873CD00E39487 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169378319C873CD00E39487 /* AddCarViewController.swift */; };
 		0169378719C873CD00E39487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0169378519C873CD00E39487 /* Main.storyboard */; };
 		0169378919C873CD00E39487 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0169378819C873CD00E39487 /* Images.xcassets */; };
 		0169378C19C873CD00E39487 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0169378A19C873CD00E39487 /* LaunchScreen.xib */; };
 		0169379819C873CD00E39487 /* PlatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169379719C873CD00E39487 /* PlatesTests.swift */; };
+		016937B619C94DCB00E39487 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016937B519C94DCB00E39487 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,7 @@
 		0169377C19C873CD00E39487 /* Plates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0169378019C873CD00E39487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0169378119C873CD00E39487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0169378319C873CD00E39487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0169378319C873CD00E39487 /* AddCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
 		0169378619C873CD00E39487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0169378819C873CD00E39487 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0169378B19C873CD00E39487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		0169379619C873CD00E39487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0169379719C873CD00E39487 /* PlatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatesTests.swift; sourceTree = "<group>"; };
 		016937AA19C8768E00E39487 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../../LIB/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		016937B519C94DCB00E39487 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 		0169377E19C873CD00E39487 /* Plates */ = {
 			isa = PBXGroup;
 			children = (
+				016937B519C94DCB00E39487 /* HomeViewController.swift */,
 				0169378119C873CD00E39487 /* AppDelegate.swift */,
-				0169378319C873CD00E39487 /* ViewController.swift */,
+				0169378319C873CD00E39487 /* AddCarViewController.swift */,
 				0169378519C873CD00E39487 /* Main.storyboard */,
 				0169378819C873CD00E39487 /* Images.xcassets */,
 				0169378A19C873CD00E39487 /* LaunchScreen.xib */,
@@ -268,8 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0169378419C873CD00E39487 /* ViewController.swift in Sources */,
+				0169378419C873CD00E39487 /* AddCarViewController.swift in Sources */,
 				0169378219C873CD00E39487 /* AppDelegate.swift in Sources */,
+				016937B619C94DCB00E39487 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
